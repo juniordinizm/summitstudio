@@ -8,7 +8,9 @@
       "Bash(pnpm run lint:*)",
       "Bash(pnpm run build:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nchore: configure project setup with strict TypeScript and Ultracite\n\n- Update TypeScript to 5.9.3 with strict mode options\n- Configure tsconfig.json with noUncheckedIndexedAccess, exactOptionalPropertyTypes\n- Add lint-staged for pre-commit formatting\n- Update biome.jsonc schema to latest version\n- Configure VS Code settings with Biome as default formatter\n- Add VS Code recommended extensions\n- Add typecheck, lint, and format scripts\n- Enable Turbopack for dev mode\n- Configure turbopack.root to fix workspace detection\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nchore: configure project setup with strict TypeScript and Ultracite\n\n- Update TypeScript to 5.9.3 with strict mode options\n- Configure tsconfig.json with noUncheckedIndexedAccess, exactOptionalPropertyTypes\n- Add lint-staged for pre-commit formatting\n- Update biome.jsonc schema to latest version\n- Configure VS Code settings with Biome as default formatter\n- Add VS Code recommended extensions\n- Add typecheck, lint, and format scripts\n- Enable Turbopack for dev mode\n- Configure turbopack.root to fix workspace detection\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
